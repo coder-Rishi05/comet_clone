@@ -1,7 +1,10 @@
+import Home from "./components/Home.jsx";
+// import Nav from "./components/Nav.jsx";
+
 function App() {
   return (
-    <div>
-      <p>Welcome to my Comet</p>
+    <div className="h-screen w-full text-black bg-[#FFFFFF]">
+      <Home />
     </div>
   );
 }
