@@ -3,7 +3,7 @@ import Home from "./components/Home.jsx";
 
 function App() {
   return (
-    <div className="h-screen w-full text-black bg-[#FFFFFF]">
+    <div className="h-screen w-full text-white bg-neutral-800">
       <Home />
     </div>
   );
