@@ -1,27 +1,34 @@
-// import React from "react";
+import React from "react";
+import { GoDownload } from "react-icons/go";
 
-// const Nav = () => {
-//   return (
-//     <div>
-//       <div className="left ">
-//         <h1 className="text-white" >commet</h1>
-//       </div>
-//       <div className="right">
-//         <button>download</button>
-//         {/* <a className="p-20 bg-white rounded-full" href="https://www.perplexity.ai/" target="_blank">
-//           <svg
-//             className="width:100%;height:100%;"
-//             viewBox="0 0 31 36"
-//             preserveAspectRatio="none"
-//             width="100%"
-//             height="100%"
-//           >
-//             <use href="#svg820874734_727"></use>
-//           </svg>
-//         </a> */}
-//       </div>
-//     </div>
-//   );
-// };
+const Nav = () => {
+  return (
+    <nav className="flex items-center justify-between px-20 py-6">
+      <div className="left  flex items-center justify-center gap-5 ">
+        <div className="logo size-10 flex items-center justify-center shadow-amber-100 shadow-2xl bg-neutral-50 rounded-full ">
+          <img
+            className="size-7  object-center object-cover "
+            src="public/perBlack.png"
+            alt=""
+          />
+        </div>
+        <h1 className="">commet</h1>
+      </div>
+      <div className="right flex items-center justify-center gap-5 ">
+        <div className="flex items-center px-5 py-3 gap-3 text-white bg-[#26919E] rounded-full ">
+          <GoDownload className="font-bold size-5" />
+          <p className=" capitalize">download</p>
+        </div>
+        <div className="logo size-10 flex items-center justify-center shadow-amber-100 shadow-2xl bg-neutral-50 rounded-full ">
+          <img
+            className="size-7  object-center object-cover "
+            src="public/perBlack.png"
+            alt=""
+          />
+        </div>
+      </div>
+    </nav>
+  );
+};
 
-// export default Nav;
+export default Nav;
