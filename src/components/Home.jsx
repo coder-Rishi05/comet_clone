@@ -3,7 +3,7 @@ import { GoDownload } from "react-icons/go";
 
 const Home = () => {
   return (
-    <div className="w-full  gap-10 flex items-center py-20 flex-col ">
+    <div className="w-full gap-10 flex items-center py-20 flex-col ">
       <div className="text">
         <p className="text-md mb-6   text-gray-500 text-center font-100 ">
           A new browser from{" "}

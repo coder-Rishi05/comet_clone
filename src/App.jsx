@@ -1,5 +1,6 @@
 import Home from "./components/Home.jsx";
 import Nav from "./components/Nav.jsx";
+import { Vid } from "./components/Vid.jsx";
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
     <div className="h-screen w-full  bg-neutral-100 ">
       <Nav />
       <Home />
+      <Vid />
     </div>
   );
 }
